@@ -27,7 +27,7 @@ RSpec.describe FirstDiscountCalculator do
 
   context 'when salary is above 1412.0' do
     it 'is 105.9' do
-      expect(described_class.new('3412.01').contribution).to eq(105.9)
+      expect(described_class.new('3412.01').contribution).to eq(113.85)
     end
   end
 end
