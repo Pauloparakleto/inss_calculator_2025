@@ -11,25 +11,25 @@ RSpec.describe FourthDiscountCalculator do
 
   context 'when salary is below class level' do
     it 'is zero' do
-      expect(described_class.new('4000.03').contribution).to eq(0.0)
+      expect(described_class.new('4190.83').contribution).to eq(0.0)
     end
   end
 
   context 'when salary fills entirely the class level' do
-    it 'is 530.03' do
-      expect(described_class.new('7786.02').contribution).to eq(530.03)
+    it 'is 555.32' do
+      expect(described_class.new('8157.41').contribution).to eq(555.32)
     end
   end
 
   context 'when salary is 5000' do
-    it 'is 518.81' do
-      expect(described_class.new('5000').contribution).to eq(139.99)
+    it 'is 113.28' do
+      expect(described_class.new('5000').contribution).to eq(113.28)
     end
   end
 
   context 'when salary is beyond salary level' do
-    it 'is 530.03' do
-      expect(described_class.new('10000').contribution).to eq(530.03)
+    it 'is 555.32' do
+      expect(described_class.new('10000').contribution).to eq(555.32)
     end
   end
 end
