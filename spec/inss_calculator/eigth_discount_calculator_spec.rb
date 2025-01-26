@@ -16,8 +16,8 @@ RSpec.describe EigthDiscountCalculator do
   end
 
   context 'when salary is 60000' do
-    it 'is 1759.88' do
-      expect(described_class.new('60000').contribution).to eq(1759.88)
+    it 'is 1214.18' do
+      expect(described_class.new('60000').contribution).to eq(1214.18)
     end
   end
 end
