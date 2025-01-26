@@ -23,11 +23,11 @@ module InssCalculator
     end
 
     def salary_limit
-      InssCalculator::FIRST_SALARY_LIMIT
+      InssCalculator2025::FIRST_SALARY_LIMIT
     end
 
     def salary_base
-      InssCalculator::FIRST_SALARY_BASE
+      InssCalculator2025::FIRST_SALARY_BASE
     end
   end
 end
