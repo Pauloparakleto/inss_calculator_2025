@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'inss_calculator'
+require 'inss_calculator_2025'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
